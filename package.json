@@ -1,0 +1,29 @@
+{
+  "name": "nextjs_test",
+  "version": "1.0.0",
+  "description": "SSR test with next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petertenhoor/nextjs_test.git"
+  },
+  "author": "Peter ten Hoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petertenhoor/nextjs_test/issues"
+  },
+  "homepage": "https://github.com/petertenhoor/nextjs_test#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^3.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-markdown": "^2.5.0"
+  }
+}
